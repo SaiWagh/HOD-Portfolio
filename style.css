@@ -668,7 +668,7 @@ h3.my-profession
 
 .education-item:hover,
 .certification-item:hover {
-    transform: scale(1.05);
+    
 }
 
 .education-item h5,
@@ -699,7 +699,7 @@ h3.my-profession
 
 .academics-box {
     background-color: #f8f8f8; /* Box background color */
-    padding: 30px; /* Add padding to the box */
+    padding: 50px; /* Add padding to the box */
     border-radius: 10px; /* Add rounded corners to the box */
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
     display: inline-block; /* Display as inline-block to center it */
@@ -761,3 +761,132 @@ h3.my-profession
     opacity: 1; /* Visible on hover */
 }
 
+/* Add this CSS to your style.css file or create a new one */
+
+/* Activities Section Styles */
+/* Add this CSS to your style.css file or create a new one */
+
+/* Add this CSS to your style.css file or create a new one */
+
+/* Activities Section Styles */
+.activities {
+    background-color: #f8f8f8;
+    padding: 50px 0;
+}
+
+.activities-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.activities-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.activities-content ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding-left: 0; /* Remove the default padding */
+}
+
+.activities-content li {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    transition: color 0.3s ease, transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+    border: 1px solid #e74c3c;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative; /* Add relative positioning to the li */
+}
+
+.activities-content li::before {
+    content: "\2022"; /* Unicode character for a solid bullet point */
+    color: #e74c3c; /* Color of the bullet point */
+    font-size: 40px; /* Adjust the font size to make the bullet larger */
+    position: absolute;
+    left: -45px; /* Adjust the left position to move the bullet to the left */
+    top: 50%; /* Center the bullet vertically */
+    transform: translateY(-50%); /* Adjust for vertical centering */
+}
+
+.activities-content li:hover {
+    color: #3498db;
+    cursor: pointer;
+    transform: translateX(5px);
+    background-color: #ecf0f1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Add more styles as needed */
+
+
+/* Papers Presented Section Styles */
+.papers-presented {
+    background-color: #f8f8f8;
+    padding: 30px 0;
+}
+
+.papers-presented .container {
+    max-width: 1050px;
+    max-height: 400px; /* Adjust the max height as needed */
+    margin: 0 auto;
+    overflow-y: auto; /* Add a scrollbar if content exceeds the max height */
+}
+
+.papers-presented .section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.papers-presented .paper h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #3498db;
+}
+
+.papers-presented ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.papers-presented li {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.papers-presented li::before {
+    content: "\2022";
+    color: #e74c3c;
+    font-size: 16px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#footer {
+    padding: 20px;
+    color: #f4f6fd;
+    font-size: 14px;
+    left: 0; /* Change this to '0' if it's not already set */
+    bottom: 0;
+    width: 100%; 
+    background: var(--skin-color);
+  }
+  
+  #footer .copyright {
+    text-align: center;
+  }
+  
+  #footer .credits {
+    padding-top: 5px;
+    text-align: center;
+    font-size: 13px;
+    color: #eaebf0;
+  }
+  
